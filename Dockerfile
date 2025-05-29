@@ -21,4 +21,4 @@ COPY . .
 EXPOSE 5000
 
 # Command để chạy ứng dụng
-CMD ["python", "HybridTest.py"]
+CMD ["python", "main.py"]

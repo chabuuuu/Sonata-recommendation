@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  sonata-recommend:
+    image: haphuthinh/sonata-recommend:latest
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 512M
