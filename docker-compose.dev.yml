@@ -1,8 +1,8 @@
 version: "3.7"
 
 services:
-  eduhub-recommend:
-    image: eduhub-recommend
+  sonata-recommend:
+    image: sonata-recommend
     build:
       context: .
     ports:
