@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   sonata-recommend:
-    image: haphuthinh/sonata-recommend:latest
+    image: haphuthinh/sonata-recommend:release-00e15b34406fc061bec28ce298bbf245deb877a3
     ports:
       - "5000:5000"
     env_file:
